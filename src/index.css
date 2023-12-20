@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* #fly {
+    display: block;
+    position: relative;
+    margin: 0px auto;
+    width: 50%;
+    height: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    font-size: 12px;
+    text-align: center;
+    color: #fff;
+    background: #ee8a65;
+    } */
+
+    body { margin: 0; padding: 0; }
+    #map { position: absolute; top: 0; bottom: 0; left: 0; width: 100%; }
