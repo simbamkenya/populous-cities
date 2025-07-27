@@ -3,7 +3,7 @@ import mapboxgl from "mapbox-gl";
 
 function Globe({ data, map }) {
   const token =
-    "pk.eyJ1Ijoic2ltYmFta2VueWEiLCJhIjoiY2wxN2Y2OW10MGI2ZTNjcDltdnh2aDc3NyJ9.Fw9-ISoHZ-7M4Pk_bo3aiw";
+    "pk.eyJ1Ijoic2ltYmFta2VueWEiLCJhIjoiY202Y2JmdHhkMGZiMjJrcGFjMTIzdHhmcyJ9.KjGQ2fd_Ssxdp-Kk8Im4ow";
   mapboxgl.accessToken = token;
   const mapContainer = useRef(null);
   const [long, setLong] = useState(-74.5);
